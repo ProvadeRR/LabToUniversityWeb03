@@ -1,0 +1,76 @@
+//compress:true
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.letters {
+  display: flex;
+  margin-left: 18px;
+  div {
+    width: 40px;
+  }
+}
+
+.bottom {
+  border-top: 1px solid #000;
+}
+
+.top {
+  border-bottom: 1px solid black;
+}
+
+.number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 40px;
+}
+
+.left {
+  border-right: 1px solid black;
+}
+
+.right {
+    border-left: 1px solid black;
+}
+
+
+.wrapper {
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chess-tr {
+  display: flex;
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.chess {
+  width: 40px;
+  height: 40px;
+}
+
+.board .chess-tr:nth-child(odd) .chess:nth-child(odd) {
+  background: Goldenrod;
+}
+.board .chess-tr:nth-child(even) .chess:nth-child(even) {
+  background: Goldenrod;
+}
+.box {
+  max-width: 1040px;
+  padding: 0 15px;
+  text-align: center;
+  margin: 0 auto;
+}
+.board {
+  border: 1px solid black;
+}
